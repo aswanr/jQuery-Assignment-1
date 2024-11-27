@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 25px;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid skyblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 15px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.cards {
+    background-color: rgb(173, 216, 230);
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid red;
+    max-width: 300px;
+    height: 300px;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    position: relative;
+    top: -20px;
+}
+
+.delete {
+    width: 70px;
+    border: 1px solid;
+    height: 30px;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #4A4745 0%, #151414);
+    color: rgba(255, 255, 255, 1);
+}
